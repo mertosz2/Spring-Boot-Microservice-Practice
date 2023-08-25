@@ -7,7 +7,7 @@ spring:
     password: MicroserviceTest1234
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
 
 server:
   port: 8083
